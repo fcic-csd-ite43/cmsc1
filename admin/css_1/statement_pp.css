@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.h_dotted {
+	border-top: 1px dotted #999999;
+}
+
+.table_left {
+	width: 430px;
+	border-right: 1px dotted #999999;
+}
+
+.table_left td {
+	padding: 0 20px;
+}
+
+
+.table_right {
+	width: 430px;
+}
+
+.table_right td {
+	padding: 0 20px;
+}
+
+.header {
+	font-size: 14px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+.bottom {
+	padding-bottom: 5px !important;
+}
+

@@ -1,0 +1,73 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/shadow.gif) repeat-y center top #ccc;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h1 {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px 0 0 !important;
+}
+
+p {
+	margin: 0;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: white;
+	height: 700px;
+}
+
+#content {
+	padding: 10px;
+	height: 700px;
+	width: 450px;
+}
+
+#name_print {
+	display:none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#list td {
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+.date {
+	padding: 0;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.td_gray2 {
+	background-color: #aaa;
+}
+
+.td_gray {
+	background-color: #ddd;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	width: 880px;
+	padding: 10px;
+	border-top: 2px solid #ccc;
+}
+
+.print {
+	margin: -25px 0 0 850px;
+}

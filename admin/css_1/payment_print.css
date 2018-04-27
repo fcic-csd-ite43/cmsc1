@@ -1,0 +1,87 @@
+/* CSS Document */
+
+body {
+	height: 700;
+	width: 400px;
+	margin: 20px 0 0 0;
+	padding: 0;
+	background: url(../images/shadow.gif) repeat-y center top #ccc;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+
+h1 {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px 0 0 !important;
+}
+
+p {
+	margin: 0;
+}
+
+#content {
+	padding: 0;
+	margin: 0;
+	height: 700px;
+	width: 350px;
+}
+
+#top_print {
+	display: none;
+}
+
+table {
+	border:none;
+}
+
+#name_display {
+	display:none;
+}
+
+#name_print {
+	margin-bottom: 20px;
+}
+
+#name_print td {
+	padding: 5px;
+}
+
+#list2 {
+	display:none;
+}
+
+#list td {
+	border: none;
+	padding: 0;
+}
+
+.date {
+	padding: 0;
+	float: right;
+	
+}
+
+.receipt {
+	padding: 5px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.td_gray2 {
+	background-color: #aaa;
+}
+
+.td_gray {
+	background-color: #ddd;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-top: 2px solid #ccc;
+}

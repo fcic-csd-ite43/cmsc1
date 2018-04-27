@@ -1,0 +1,553 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	margin: 0px;
+	color: white;
+	background-color: black;
+	background: url(../images/bg.gif) repeat-y center center #666666;
+}
+
+img, p, div, form, h1, h2, h5, h4, ul, li, table {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	color: #0066CC;
+	background-image: url(../images/h1line.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	margin: 5px 0 20px;
+	padding-bottom: 3px;
+}
+
+h1 a {
+	font-size: 12px;
+	color: #FF9900 !important;
+}
+
+h1 a:hover {
+	font-size: 12px;
+	color: #FF6600 !important;
+}
+
+.ul_nostyle {
+	background: none !important;
+}
+
+.post_btn {
+	float: right;
+}
+
+#h1bg, #no_indent, #forum {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #DCEFFD;
+	background: url(../images/newsbg.GIF) repeat-x;
+	margin: 5px;
+	padding: 5px;
+	color: #333;
+}
+
+#h1bg ul {
+	list-style: circle;
+	margin: 5px 5px 5px 50px;
+}
+
+#no_indent ul {
+	margin: 5px 5px 5px 50px;
+}
+
+#h1bg p {
+	padding: 0 5px;
+	text-indent: 20px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .2px;
+	word-spacing: 2px;
+}
+
+#h1bg a {
+	color: blue;
+	font-weight: bold;
+}
+
+#h1bg a:hover {
+	text-decoration: underline;
+}
+
+#no_indent p {
+	padding: 0 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .2px;
+	word-spacing: 2px;
+}
+
+#no_indent a {
+	color: #0066FF;
+}
+
+#forum p {
+	padding: 0 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .2px;
+	word-spacing: 2px;
+}
+
+#forum a {
+	color: #0099FF;
+	margin-top: -15px;
+}
+
+#forum a:hover {
+	color: #0000CC;
+}
+
+.no_reply {
+	color: #999;
+	float: right;
+	margin-top: -15px;
+}
+
+.reply_btn {
+	color: #0066FF;
+	float: right;
+	margin-top: -15px;
+}
+
+.posted_by {
+	padding-bottom: 10px !important;
+	margin-bottom: 10px !important;
+	background-image: url(../images/hblackdotted.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.posted_by:first-letter {
+	text-transform: capitalize;
+}
+
+.reply {
+	background-color: #ccc;
+	padding: 5px;
+}
+
+.reply_header {
+	color: #0066FF;
+}
+
+h2 {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+h4 {
+	padding: 5px;
+	font-size: 12px;
+	color: #1C9FF9;
+	font-weight: bold;
+	vertical-align: top;
+	background-image: url(../images/fcic_10.gif);
+	background-repeat: repeat-x;
+}
+
+h5 {
+	font: Arial;
+	background-color: #0033CC;
+	padding: 5px 0 0 18px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#container {
+	width: 770px;
+	height: auto;
+	background-color: white;
+	color: #ccc;
+	margin: auto;
+	background-image: url(../images/fcic_13.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+#headmast {
+	width: 770px;
+	height: 149px;
+}
+
+#admin_headmast {
+	width: 770px;
+	height: 50px;
+	padding-top: 84px;
+	background-image: url(../images/top.gif);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#welcome {
+	width: 170px;
+	background-color: #7DC6F8;
+	margin: 0 0 0 3px;
+	font-size: 1em;
+	padding: 5px 10px;
+	float: left;
+	color: white;
+}
+
+.welcome {
+	width: 150px !important;
+}
+
+#welcome a {
+	font-weight: bold;
+}
+
+#welcome a:hover {
+	text-decoration: underline;
+}
+
+#search {
+	width: 175px;
+	background-color: #7DC6F8;
+	margin: 0 0 0 2px;
+	font-size: 1em;
+	padding: 5px 10px;
+	float: left;
+}
+
+#search input {
+	border: 1px solid white;
+	padding: 2px;
+}
+
+#search input:hover {
+	border: 1px solid #00CCFF;
+	padding: 2px;
+}
+
+.goBtn {
+	border: none !important;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+.goBtn:hover {
+	border: none !important;
+	background-color: #666666;
+}
+
+#search table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+#search input {
+	font-size: 12px !important;
+	font-family: Verdana;
+}
+
+#search a {
+	color: white;
+	font-weight: bold;
+}
+
+#search a:hover {
+	text-decoration: underline;
+}
+
+#top_nav {
+	font-size: 11px;
+	width: 569px;
+	height: 17px;
+	padding-top: 18px;
+	background: url(../images/date.gif) no-repeat;
+	position: relative;
+	float: right;
+}
+
+#top_nav a:hover{
+	background-image: url(../images/btnBGOVER.gif);
+	background-repeat: repeat-x;
+	padding: 4px 7px 0;
+}
+
+#top_nav a{
+	background-image: url(../images/btnBG.gif);
+	background-repeat: repeat-x;
+	padding: 4px 7px 0;
+}
+
+#top_nav ul  {
+	padding-left: 12px;
+}
+
+#top_nav li{
+	list-style: none;
+	display: inline;
+	margin-right: 2px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+#date_format {
+	width: 545px;
+	background-image: url(../images/fcic_08.gif);
+	background-repeat: no-repeat;
+	text-align: right;
+	color: black;
+	padding: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 3px 0 0;
+}
+
+#admin_date_format {
+	text-align: right;
+	color: white;
+	padding: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	margin: -15px 0 0;
+}
+
+#left_nav {
+	width: 150px;
+	float: left;
+	color: white;
+}
+
+#left_nav ul {
+	font: Arial; 
+	list-style: none;
+	padding: 0 0 0 30px;
+	margin: 0;
+}
+
+#left_nav li{
+	border-bottom: 1px solid #1F8EDA;
+	background-image: url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+}
+
+.lnselected {
+	color: #00CCFF !important;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+#left_nav a{
+	display: block;
+	padding: 5px 0;	
+}
+
+#left_nav a:hover{
+	color: #00CCFF;
+}
+
+#left_nav_btns {
+	width: 169px;
+	background-color: #050AB8;
+	margin: 0 0 0 11px;
+	padding: 15px 10px 20px 0;
+	font-weight: bold;
+}
+
+#lnBGblue {
+	width: 169px;
+	margin: 0 0 3px 11px;
+	background-color: #333333;
+	padding: 15px 10px 0 0;
+}
+
+#lnBGblue a {
+	font-weight: bold;
+}
+
+#lnBGblue h5 {
+	background-color: #999;
+}
+
+#lnBGblue li {
+	border-color: #666666;
+}
+
+#content {
+	width: 569px;
+	background-color: white;
+	padding-bottom: 50px;
+	float: right;
+}
+
+#content_content {
+	margin: 0;
+	width: 557px;
+}
+
+#content_content2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	width: 537px;
+	border: 1px solid #DCEFFD;
+	padding: 10px;
+	color: #333;
+}
+
+#news {
+	width: 270px;
+	border: 1px solid #DCEFFD;
+	background: url(../images/newsbg.GIF) repeat-x;
+}
+
+#news p {
+	font-family: Verdana;
+	padding: 5px;
+	color: #666666;
+	font-size: 11px;
+}
+
+#colleges {
+	width: 260px;
+	border: 1px solid #DCEFFD;
+	background: url(../images/newsbg.GIF) repeat-x;
+}
+
+#colleges p {
+	font-family: Verdana;
+	padding: 5px;
+	color: #666666;
+	font-size: 11px;
+}
+
+#colleges2 {
+	height: 120px;
+	border: 1px solid #DCEFFD;
+	background: url(../images/newsbg.GIF) repeat-x;
+}
+
+#colleges2 p {
+	font-family: Verdana;
+	padding: 5px;
+	color: #666666;
+	font-size: 11px;
+}
+
+.readmore {
+	color: #FF9900 !important;
+	text-align: right;
+}
+
+.readmore:hover {
+	color: #FF3300 !important;
+}
+
+.newstitle {
+	color: #0000CC !important;
+	text-align: right;
+}
+
+.newstitle:hover {
+	color: #0099FF !important;
+}
+
+
+.blackdotted ul {
+	margin: 15px !important;
+	background-image: url(../images/hblackdotted.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 10px;
+}
+
+.blackdotted li {
+	list-style: none;
+}
+
+.blackdotted p {
+	text-indent: 0 !important;
+}
+
+.admin_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.admin_table a {
+	color: #0066FF;
+}
+
+.admin_table td {
+	padding: 5px;
+}
+
+.admin_table tr{
+	background-image: url(../images/hblackdotted.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 10px;
+}
+
+.td_header {
+	font-weight: bold;
+	background-color: #ccc;
+}
+
+.custom_btn {
+	color: black !important;
+}
+
+.paging {
+	margin-top: 15px;
+	text-align: right;
+	color: #ccc;
+}
+
+.paging a {
+	color: black !important;
+}
+
+.paging img {
+	margin-bottom: -5px;
+}
+
+#footer {
+	font-family: Verdana;
+	font-size: 11px;
+	width: 730px;
+	height: 83px;
+	background: url(../images/fcic_17.gif) no-repeat center top;
+	clear: both;
+	padding: 45px 20px 0;
+	color: white;
+}
+
+#footer a {
+	font-weight: bold;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.error_msg {
+	color: red;
+}
